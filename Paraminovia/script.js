@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.card');
     console.log("Total de cartas:", cards.length);
     const messages = [
-        "Te va a ir bien el amor y vas a estar muy feliz 💖",
+        "Te va a ir bien en el amor y vas a estar muy feliz 💖",
         "Tu pareja actual te ama muchísimo y no te va soltar nunca ✨",
         "Hay una persona en especial que esta dispuesta a darte lo mejor para que estes bien 🎁",
         "Aunque no lo creas, tenes a alguien que te quiere ver triunfar en todo y es muy feliz a tu lado 💫",
