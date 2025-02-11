@@ -1,13 +1,16 @@
 /* script.js */
 document.addEventListener('DOMContentLoaded', () => {
     const cards = document.querySelectorAll('.card');
+    console.log("Total de cartas:", cards.length);
     const messages = [
         "Te va a ir bien el amor y vas a estar muy feliz 💖",
-        "Tu pareja actual te ama muchisimo y no te va soltar nunca ✨",
-        "Hay una persona en especial que esta dispuesto a darte lo mejor para que estes bien 🎁",
-        "Aunque no lo creas, hay una persona que con solo saber de vos, es muy feliz 💫",
-        "El simpre te va a amar a pesar de todas las dificultades y problemas. Te amo con todo mi corazon 💌"
-    ];
+        "Tu pareja actual te ama muchísimo y no te va soltar nunca ✨",
+        "Hay una persona en especial que esta dispuesta a darte lo mejor para que estes bien 🎁",
+        "Aunque no lo creas, tenes a alguien que te quiere ver triunfar en todo y es muy feliz a tu lado 💫",
+        "Tus ojos y tu sonrisa ilumina la vida de alguien más, no lo olvides nunca 😊",
+        "El destino tiene grandes sorpresas para vos, solo tenés que confiar y seguir 💕",
+        "Siempre te voy a amar a pesar de todas las dificultades y problemas. Te amo con todo mi corazon 💌"
+        ];
 
     cards.forEach((card, index) => {
         card.addEventListener('click', () => {
