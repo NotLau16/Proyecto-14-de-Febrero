@@ -180,18 +180,20 @@ body {
     /* Título más pequeño */
     .title {
         font-size: 2.5rem;
+        margin-top: 20px; /* Espacio extra arriba para que no se vea tan pegado al borde */
     }
 
     /* Disposición de las cartas en una sola columna */
     .cards {
-        grid-template-columns: 1fr; /* Muestra una sola carta por fila */
+        grid-template-columns: 1fr; /* Una carta por fila */
         gap: 20px; /* Ajusta el espacio entre las cartas */
+        padding: 0 10px; /* Evita que las cartas salgan fuera del contenedor */
     }
 
-    /* Tamaño de las cartas más pequeño */
+    /* Tamaño de las cartas más pequeño y adaptativo */
     .card {
-        width: 90%; /* Ajusta al 90% del ancho de la pantalla */
-        height: 200px;
+        width: 100%; /* Carta ocupa el 100% del ancho disponible */
+        height: 200px; /* Ajusta la altura para que se vea bien en móviles */
         margin: 0 auto; /* Centra las cartas */
     }
 
@@ -199,13 +201,17 @@ body {
     .left-text, .right-text {
         font-size: 1rem;
         bottom: 10px;
+        left: 10px; /* Un pequeño margen en la izquierda */
+        right: 10px; /* Un pequeño margen en la derecha */
     }
 
     /* Imagen sorpresa se adapta mejor al tamaño móvil */
     .surprise-image {
-        width: 100%;
-        max-width: 400px; /* Máximo de 400px para que no se vea tan grande */
-        margin: 20px auto; /* Centrado y espacio arriba y abajo */
+        width: 90%; /* Ocupa el 90% del ancho disponible */
+        max-width: 400px; /* Limita el tamaño máximo */
+        margin: 20px auto; /* Centrado con margen arriba y abajo */
+        display: block; /* Asegura que la imagen sea bloque */
     }
 }
+
 
